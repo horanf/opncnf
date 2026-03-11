@@ -3,52 +3,51 @@
   "auto_update": false,
   "agents": {
     "sisyphus": {
-      "model": "minimax-cn-coding-plan/MiniMax-M2.5"
+      "model": "volcengine/kimi-k2.5"
     },
     "oracle": {
-      "model": "github-copilot/gpt-5.4",
+      "model": "openai/gpt-5.4",
       "variant": "high"
     },
     "hephaestus": {
-      "model": "github-copilot/claude-opus-4.6",
+      "model": "openai/gpt-5.3-codex",
       "variant": "max"
     },
     "librarian": {
-      "model": "minimax-coding-plan/MiniMax-M2.5"
+      "model": "minimax-cn-coding-plan/MiniMax-M2.5"
     },
     "explore": {
-      "model": "minimax-coding-plan/MiniMax-M2.5"
+      "model": "minimax-cn-coding-plan/MiniMax-M2.5"
     },
     "multimodal-looker": {
-      "model": "github-copilot/gemini-3-flash-preview"
+      "model": "volcengine/kimi-k2.5"
     },
     "prometheus": {
-      "model": "github-copilot/claude-opus-4.6",
+      "model": "openai/gpt-5.4",
       "variant": "max"
     },
     "metis": {
-      "model": "github-copilot/claude-opus-4.6",
+      "model": "openai/gpt-5.4",
       "variant": "max"
     },
     "momus": {
-      "model": "github-copilot/gpt-5.4",
+      "model": "openai/gpt-5.4",
       "variant": "medium"
     },
     "atlas": {
-      "model": "github-copilot/claude-sonnet-4.5"
+      "model": "openai/gpt-5.4"
     }
   },
   "categories": {
     "visual-engineering": {
-      "model": "github-copilot/gemini-3.1-pro-preview",
-      "variant": "high"
+      "model": "volcengine/kimi-k2.5"
     },
     "ultrabrain": {
-      "model": "github-copilot/gemini-3.1-pro-preview",
+      "model": "openai/gpt-5.3-codex",
       "variant": "high"
     },
     "artistry": {
-      "model": "github-copilot/gemini-3.1-pro-preview",
+      "model": "openai/gemini-3.1-pro-preview",
       "variant": "high"
     },
     "quick": {
@@ -58,7 +57,7 @@
       "model": "minimax-cn-coding-plan/MiniMaxM2.5"
     },
     "unspecified-high": {
-      "model": "github-copilot/claude-sonnet-4.5"
+      "model": "volcengine/kimi-k2.5"
     },
     "writing": {
       "model": "minimax-cn-coding-plan/MiniMaxM2.5"
