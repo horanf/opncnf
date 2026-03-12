@@ -1,7 +1,35 @@
 {
   "$schema": "https://opencode.ai/config.json",
   "plugin": [
-    "oh-my-opencode@latest"
+    "oh-my-opencode"
   ],
-  "provider": {}
+  "provider": {
+    "volcengine": {
+      "npm": "@ai-sdk/openai-compatible",
+      "name": "volcengine",
+      "options": {
+        "baseURL": "https://ark.cn-beijing.volces.com/api/coding/v3",
+        "apiKey": "be4a3b81-4838-42a3-b7e2-bf7985916f74"
+      },
+      "models": {
+        "kimi-k2.5": {
+          "name": "kimi-k2.5",
+          "modalities": {
+            "input": [
+              "text",
+              "image"
+            ],
+            "output": [
+              "text"
+            ]
+          },
+          "options": {
+            "thinking": {
+              "type": "enabled"
+            }
+          }
+        }
+      }
+    }
+  }
 }
